@@ -1,0 +1,40 @@
+body {
+    background: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+main {
+    border-radius: 10px;
+    width: 375px;
+    text-align: center;
+    background: red;
+}
+.top {
+    height: 120px;
+    color:white;
+}
+.middle {
+    background: white;
+    height: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 115px;
+    font-family: cursive;
+    font-size: 3rem;
+}
+.bottom {
+
+    height: 20px;
+}
+.hello {
+    font-size: 4.5rem;
+    line-height: 1;
+}
+
+.my-name-is {
+    font-size: 2rem;
+}
