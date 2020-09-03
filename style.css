@@ -31,7 +31,7 @@ main {
     height: 20px;
     padding: 10px;
 }
-#greeting {
+.greeting {
     font-size: 4.5rem;
     line-height: 1;
 }

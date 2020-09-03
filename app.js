@@ -1,13 +1,11 @@
-const myGreeting = document.getElementById("greeting");
-console.log(greeting);
-const myInput = document.getElementById("greeting-input");
-console.log(myInput);
-const myButton = document.getElementById("greeting-button");
-console.log(myButton);
+const myName = document.getElementById("name");
+const nameInput = document.getElementById("name-input");
+const myButton = document.getElementById("name-button");
+
 
 myButton.addEventListener('click', () => {    
 
-    const userInput = myInput.value;
+    const userInput = nameInput.value;
 
-    myGreeting.textContent = userInput;
+    myName.textContent = userInput;
 });
