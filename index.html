@@ -6,17 +6,22 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <main>
-        <section class= "top">
-            <div class= "hello">Hello</div>
+        <div class= "top">
+            <div id= "greeting">Hello</div>
             <div class= "my-name-is">My name is</div>
-        </section>
-        <section class="middle">
+        </div>
+        <div class="middle">
             Jeff
-        </section>
-        <section class="bottom">
-        </section>
+        </div>
+        <div class="bottom">
+            <input id="greeting-input" />
+            <button id="greeting-button">Change greeting</button>
+        </div>
     </main>
+
+    <script type="module" src="app.js"></script>
 </body>
 </html>
